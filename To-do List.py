@@ -12,7 +12,7 @@ ctk.set_default_color_theme("blue")  # Options: "blue", "green", "dark-blue"
 class DatabaseManager:
     """Handles all database operations using MySQL."""
 
-    def __init__(self, host="127.0.0.1", port=3306, user="root", password="nobodyknows", database="todolist"):
+    def __init__(self, host="127.0.0.1", port=3306, user="YourUser", password="YourPassword", database="todolist"): #CHANGE THE USER AND PASSWORD THAT YOU HAVE FOR SQL
         self.config = {
             "host": host,
             "port": port,
